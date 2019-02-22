@@ -1,0 +1,226 @@
+.big {
+    width: 100%;
+    height: 13.34rem;
+    background: #f0f0f0;
+    position: relative;
+}
+
+#header {
+    width: 100%;
+    height: 5.3rem;
+    background-image: linear-gradient(90deg,#ffac1c ,#ff5426);
+}
+
+.container {
+    width: 7.02rem;
+    height: 0.9rem;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+.topBar {
+    width: 7.02rem;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top:0.55rem;
+}
+
+.topBar .back {
+    font-family: "iconfont";
+    color: #ffffff;
+    font-size: 0.36rem;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+}
+
+.topBar h3 {
+    font-size: 0.32rem;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.writeK {
+    width: 0.48rem;
+    height: 0.48rem;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(182, 183, 187, 0.46);
+    border: 1px solid rgba(209, 209, 209, 0.4);
+    border-radius: 14px;
+}
+
+
+
+
+#message{
+    width: 7.02rem;
+    height:4rem;
+    background: #ffffff;
+    padding: 0 0.4rem 0 0.4rem;
+    margin: 0.4rem auto;
+}
+
+#message .messageTime{
+    width: 100%;
+    height: 1.5rem;
+    position: relative;
+    line-height: 0.35rem;
+}
+
+.messageTime h2{
+    font-size: 0.28rem;
+    display: inline-block;
+    margin-left: 0.1rem;
+}
+.messageTime p{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.7);
+}
+.messageTime .p1{
+    display: inline-block;
+    margin-left: 2.4rem;
+}
+
+.line {
+    width: 6.49rem;
+    height: 0.02rem;
+    background: rgba(237, 237, 237, 0.7);
+    margin: 0 auto;
+}
+.messageTime i{
+    font-family: iconfont;
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.7);
+}
+
+#store {
+    width: 7.01rem;
+    height: 6.16rem;
+    background: #ffffff;
+    margin: 0.2rem auto;
+    padding-top: 0.3rem;
+    padding-left: 0.35rem;
+    padding-right: 0.2rem;
+}
+
+.storeName {
+    width: 5rem;
+    height: 0.3rem;
+}
+
+.storeName p {
+    font-size: 0.26rem;
+    line-height: 0.3rem;
+}
+
+.storeDetail {
+    width: 6.5rem;
+    height: 0.77rem;
+    margin-bottom: 0.34rem;
+}
+
+.storeDetail img {
+    width: 0.81rem;
+    height: 0.77rem;
+    box-shadow: 0 1px 16px 0 rgba(181, 181, 181, 0.7);
+    border-radius: 0.13rem;
+    float: left;
+}
+
+.storeDetail .called {
+    float: left;
+    line-height: 0.77rem;
+    margin-left: 0.15rem;
+    font-size: 0.22rem;
+    color: #585858;
+}
+
+.storeDetail .amount {
+    float: left;
+    margin-left: 2.38rem;
+    font-size: 0.16rem;
+    line-height: 0.77rem;
+}
+
+.storeDetail .money {
+    float: right;
+    font-size: 0.24rem;
+    line-height: 0.77rem;
+}
+
+.storeNumber {
+    width: 6.5rem;
+    height: 0.7rem;
+}
+
+.storeNumber p{
+    font-size: 0.26rem;
+    line-height: 0.7rem;
+    float: left;
+    color: black;
+    display: inline-block;
+}
+
+
+.storeNumber .money {
+    float: right;
+    font-size: 0.26rem;
+    line-height: 0.7rem;
+}
+
+.privilege {
+    width: 6.5rem;
+    height: 0.4rem;
+    position: relative;
+}
+
+.privilege .privilegeT {
+    float: left;
+    position: absolute;
+    right: 1.2rem;
+    line-height: 0.4rem;
+    font-size: 0.26rem;
+}
+
+.privilege .privilegeM {
+    float: right;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+}
+
+
+
+#footer {
+    width: 100%;
+    height: 1rem;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+}
+
+.footerLeft .totalMoney {
+    float: left;
+    font-size: 0.4rem;
+    line-height: 1rem;
+    margin-left: 0.12rem;
+    color: #ff5e25;
+}
+
+.footerRight {
+    float: right;
+    width: 2.3rem;
+    height: 1rem;
+    background: linear-gradient(90deg,#ffac1c ,#ff5426) ;
+}
+
+.footerRight .sure {
+    color: #ffffff;
+    font-size: 0.4rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+/*footer*/

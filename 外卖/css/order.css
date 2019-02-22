@@ -1,0 +1,213 @@
+.container {
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.iconfont {
+    font-family: "iconfont";
+}
+body{
+    font-size: 0.14rem;
+}
+
+
+/*  头部开始 */
+#header {
+    margin-top: 0.40rem;
+    width: 100%;
+    height: 0.88rem;
+    background-image: linear-gradient(90deg, #ffac1c, #ff5426);
+}
+
+.head {
+    width: 100%;
+    height: 0.88rem;
+}
+
+.head h2 {
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+}
+
+/*  头部结束 */
+
+
+/*  列表开始  */
+.list {
+    width: 100%;
+    height: 2.4rem;
+    margin-top: 0.4rem;
+}
+
+.colorBox {
+    width: 1.25rem;
+    height: 2.4rem;
+    background: #ff6324;
+    float: left;
+}
+
+.contentBox {
+    width: 5.77rem;
+    height: 2.4rem;
+    border: 0.02rem solid rgba(0, 0, 0, 0.05);
+    float: left;
+    position: relative;
+}
+
+.leftPic {
+    width: 2.02rem;
+    height: 2.02rem;
+    margin-top: 0.16rem;
+    margin-left: -0.75rem;
+    float: left;
+    border-radius: 0.22rem;
+}
+
+.leftPic img {
+    width: 2.02rem;
+    height: 2.02rem;
+}
+
+.rightDesc {
+    width: 3.03rem;
+    height: 1.8rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.35rem;
+}
+
+.rightDesc h2 {
+    font-size: 0.32rem;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 0.15rem;
+}
+
+.rightDesc .demo {
+    width: 2.3rem;
+    height: 0.6rem;
+    margin-bottom: 0.18rem;
+}
+
+.rightDesc .demo .zuhe {
+    width: 2rem;
+    height: 0.18rem;
+    margin-bottom: 0.15rem;
+}
+
+.rightDesc .demo .zuhe .yuan {
+    width: 0.11rem;
+    height: 0.11rem;
+    border-radius: 50%;
+    background-color: #ff6025;
+    border: 0.02rem solid #ffac1c;
+    display: inline-block;
+    margin-right: 0.02rem;
+}
+
+.rightDesc .demo .zuhe .time {
+    width: 1.8rem;
+    height: 0.18rem;
+    font-size: 0.22rem;
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+}
+
+.rightDesc .demo .xuxian {
+    width: 2.2rem;
+    height: 0.01rem;
+    border-bottom: 0.01rem dashed rgba(0, 0, 0, 0.4);
+}
+
+.rightDesc .demo .shuoming {
+    width: 2.1rem;
+    height: 0.18rem;
+    font-size: 0.18rem;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 0.05rem;
+}
+
+.rightDesc .p1 {
+    font-size: 0.28rem;
+    color: #ff5f25;
+    display: inline-block;
+}
+
+.rightDesc .p2 {
+    font-size: 0.22rem;
+    color: rgba(0, 0, 0, 0.9);
+    display: inline-block;
+}
+
+.completed {
+    width: 0.6rem;
+    height: 0.2rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.15rem;
+}
+
+.completed p {
+    font-size: 0.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.circle {
+    width: 1.08rem;
+    height: 0.32rem;
+    border-radius: 0.16rem;
+    background-image: linear-gradient(0deg, #ff6424, #ffac1c);
+    position: absolute;
+    bottom: 0.3rem;
+    right: 0.21rem;
+}
+
+.circle p {
+    font-size: 0.2rem;
+    color: #ffffff;
+    line-height: 0.32rem;
+    text-align: center;
+}
+
+/*  列表结束  */
+
+
+/*  底部table栏开始  */
+.table {
+    background: #ffffff;
+    width: 100%;
+    height: 0.98rem;
+    line-height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.table .tab {
+    width: 5.76rem;
+    height: 0.5rem;
+    position: absolute;
+    left: 0.63rem;
+    top: 0.28rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.42rem;
+    line-height: 0.42rem;
+    text-align: center;
+}
+
+.table .tab i {
+    width: 0.42rem;
+    height: 0.42rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.table .tab i span.active {
+    color: #ff6700;
+    font-size: 0.4rem;
+}
+
+/*  底部table栏结束  */
